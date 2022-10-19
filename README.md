@@ -46,8 +46,8 @@ NCDCは創業以来リモートワークを採用しています。そのため�
 これについてはエンジニアチームの中で年間の目標などを決めています。
 2021年の目標に社内勉強会を24回、社外勉強会を8回開催することを上げましたが、社内勉強会はほぼ毎週実施でき1年間で54回実施できました。
 
-NCDCの社内勉強会のとりくみはこちらのスライドにまとめています。
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/2470182bbd3c4147871083e54d72b0fb" title="振り返りで続ける勉強会" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 420px;" data-ratio="1.3333333333333333"></iframe>
+NCDCの社内勉強会の取り組みはこちらのスライドにまとめています。
+[振り返りで続ける勉強会](https://speakerdeck.com/rsogo/retrospective-driven-study-workshop-ncdc)
 
 社外勉強会はAWS、ReactのLT会を社外の方にも登壇いただきながら毎月開催しています。下記にてオープンにやっていますので、ぜひご参加ください。
 
