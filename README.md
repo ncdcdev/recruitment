@@ -31,6 +31,14 @@ NCDCで採用している技術スタックはフロントエンド、バック�
 その他、モバイルアプリやCI/CDなどについてもまとめた記事がありますので、気になる方は読んでみてください。
 https://ncdc.co.jp/columns/7187/
 
+
+### 生産性や品質を上げるためのツールの導入
+
+エンジニアの生産性を高めるためにGitHub Copilotや、[GitHub Copilot Chat](https://github.blog/jp/2023-07-24-github-copilot-chat-beta-now-available-for-every-organization/)などの新しいツールも積極的に導入しています。
+
+また、テストのカバレッジを見える化するために[Codecov](https://about.codecov.io/)を導入しています。
+![Codecov](codecov-image.png)
+
 ### サービスの企画段階から参画できる
 コードを書く時に、「この技術を使ったらもっとこんな機能を提供できるのに」とか「なんのためにこの機能があるのかわからない」と感じたことはないでしょうか。
 
@@ -54,6 +62,9 @@ NCDCは創業以来リモートワークを採用しています。そのため�
 
 NCDCの社内勉強会の取り組みはこちらのスライドにまとめています。
 [振り返りで続ける勉強会](https://speakerdeck.com/rsogo/retrospective-driven-study-workshop-ncdc)
+
+ZennにNCDCのエンジニアが書いた記事もまとまっていますので、こちらもご覧ください。
+https://zenn.dev/p/ncdc
 
 社外勉強会はAWS、ReactのLT会を社外の方にも登壇いただきながら毎月開催しています。下記にてオープンにやっていますので、ぜひご参加ください。
 
