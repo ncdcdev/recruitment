@@ -8,7 +8,10 @@ NCDCでは年間を通してエンジニアチームの採用情報を行って�
 5. [応募方法](#応募方法)
 
 ## NCDCの紹介
-NCDC ( https://ncdc.co.jp/ ) は、「デザインとテクノロジーの力でビジネスを成功に導く」をキーワードにクライアントの新規サービスの企画からデザイン、システム開発までを一元的に行う、日本発のデジタルイノベーションファームです。
+[NCDC](https://ncdc.co.jp/) は、「デザインとテクノロジーの力でビジネスを成功に導く」をキーワードにクライアントの新規サービスの企画からデザイン、システム開発までを一元的に行う、日本発のデジタルイノベーションファームです。
+
+![](./ncdc-logo.png)
+
 デザインシンキングやUXデザイン、アジャイル開発などプロセスや方法論を活用してクライアントのデジタルビジネス推進を支援します。
 
 ## NCDCのエンジニアチームの紹介
@@ -63,12 +66,13 @@ NCDCは創業以来リモートワークを採用しています。そのため�
 NCDCの社内勉強会の取り組みはこちらのスライドにまとめています。
 [振り返りで続ける勉強会](https://speakerdeck.com/rsogo/retrospective-driven-study-workshop-ncdc)
 
+
 ZennにNCDCのエンジニアが書いた記事もまとまっていますので、こちらもご覧ください。
-https://zenn.dev/p/ncdc
+[https://zenn.dev/p/ncdc](https://zenn.dev/p/ncdc)
 
 社外勉強会はAWS、ReactのLT会を社外の方にも登壇いただきながら毎月開催しています。下記にてオープンにやっていますので、ぜひご参加ください。
 
-https://ncdc-dev.connpass.com/
+[https://ncdc-dev.connpass.com/](https://ncdc-dev.connpass.com/)
 
 また、Pull Requestのレビューや、モブプログラミングなども普通に行っており、動けば良いではなく、より良い設計、コードの書き方をしたいよね、という文化が根付いていると思います。
 
@@ -115,6 +119,6 @@ NCDCの業務内容の特徴として、エンドユーザーとの直接契約�
 下記のメールアドレス、またはお問い合わせフォームでご連絡ください。
 CTOが直接確認して、ご連絡致します。
 
-https://ncdc.co.jp/contact/
-info@ncdc.co.jp
+- https://ncdc.co.jp/contact/
+- info@ncdc.co.jp
 
