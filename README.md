@@ -29,7 +29,7 @@ NCDCにはコンサル、デザイナー、セールス＆マーケなどのチ�
 
 NCDCで採用している技術スタックはフロントエンド、バックエンドともTypeScriptを採用しており、インフラはAWSをほとんどのケースで採用しています。
 
-![](https://ncdc.co.jp/wp-content/uploads/2021/03/NCDC%E3%81%8B%E3%82%99%E6%8E%A1%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%83%95%E3%82%9A%E3%83%AD%E3%82%AF%E3%82%99%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%E8%A8%80%E8%AA%9E%E3%82%84%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF_2022%E5%B9%B4.png.webp)
+![](./tech-map.drawio.png)
 
 その他、モバイルアプリやCI/CDなどについてもまとめた記事がありますので、気になる方は読んでみてください。
 https://ncdc.co.jp/columns/7187/
@@ -119,6 +119,7 @@ NCDCの業務内容の特徴として、エンドユーザーとの直接契約�
 下記のメールアドレス、またはお問い合わせフォームでご連絡ください。
 CTOが直接確認して、ご連絡致します。
 
-- https://ncdc.co.jp/contact/
-- info@ncdc.co.jp
+- [NCDC企業Webサイト](https://ncdc.co.jp/)
+- [NCDC採用サイト](https://ncdc.recruit-site.biz/)
+- hr@ncdc.co.jp
 
