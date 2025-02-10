@@ -10,7 +10,7 @@ NCDCでは年間を通してエンジニアチームの採用情報を行って�
 ## NCDCの紹介
 [NCDC](https://ncdc.co.jp/) は、「デザインとテクノロジーの力でビジネスを成功に導く」をキーワードにクライアントの新規サービスの企画からデザイン、システム開発までを一元的に行う、日本発のデジタルイノベーションファームです。
 
-![](./ncdc-logo.png)
+![NCDCロゴ](./images/ncdc-logo.png)
 
 デザインシンキングやUXデザイン、アジャイル開発などプロセスや方法論を活用してクライアントのデジタルビジネス推進を支援します。
 
@@ -29,7 +29,7 @@ NCDCにはコンサル、デザイナー、セールス＆マーケなどのチ�
 
 NCDCで採用している技術スタックはフロントエンド、バックエンドともTypeScriptを採用しており、インフラはAWSをほとんどのケースで採用しています。
 
-![](./tech-map.drawio.png)
+![NCDCの技術スタックマップ](./images/tech-map.drawio.png)
 
 その他、モバイルアプリやCI/CDなどについてもまとめた記事がありますので、気になる方は読んでみてください。
 https://ncdc.co.jp/columns/7187/
@@ -40,7 +40,7 @@ https://ncdc.co.jp/columns/7187/
 エンジニアの生産性を高めるためにGitHub Copilotや、[GitHub Copilot Chat](https://github.blog/jp/2023-07-24-github-copilot-chat-beta-now-available-for-every-organization/)などの新しいツールも積極的に導入しています。
 
 また、テストのカバレッジを見える化するために[Codecov](https://about.codecov.io/)を導入しています。
-![Codecov](codecov-image.png)
+![Codecovのスクリーンショット](./images/codecov-image.png)
 
 ### サービスの企画段階から参画できる
 コードを書く時に、「この技術を使ったらもっとこんな機能を提供できるのに」とか「なんのためにこの機能があるのかわからない」と感じたことはないでしょうか。
