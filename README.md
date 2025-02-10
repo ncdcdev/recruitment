@@ -85,7 +85,7 @@ NCDCは創業以来リモートワークを採用しています。そのため�
 チーム全体で技術力向上とナレッジ共有に力を入れています：
 
 - **社内勉強会**: 年間40回以上開催。取り組みの詳細は[振り返りで続ける勉強会](https://speakerdeck.com/rsogo/retrospective-driven-study-workshop-ncdc)にまとめています。
-- **社外勉強会**: AWS、ReactのLT会をほぼ毎月開催。[ncdc-dev](https://ncdc-dev.connpass.com/)にて一般公開しています。
+- **社外勉強会**: AWS、ReactのLT会をほぼ毎月開催。主に[connpass](https://ncdc-dev.connpass.com/)にて一般公開しています。
   - 2024年度は、1年間で8回開催しました。
 - **技術記事**: ZennやQiitaで年間130件以上の記事を公開。[NCDCのZenn記事一覧](https://zenn.dev/p/ncdc)
 - **コードレビュー文化**: PRレビューやペアプログラミングを通じて、より良いコードと設計を追求します。
