@@ -55,7 +55,7 @@ NCDC社外にも公開するLT会を主催し、エンジニア同士の情報�
 生成AIを活用したアプリケーション開発を行い、
 AWS SummitやIT Weekなどの展示会でデモを行いました。
 
-[生成AIデモの構成図](./images/genai-demo.png)
+![生成AIデモの構成図](./images/genai-demo.png)
 
 #### モバイルアプリ開発の技術調査
 
