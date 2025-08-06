@@ -1,13 +1,12 @@
+# **[今すぐ採用エントリー](https://ncdc.recruit-site.biz/recruit/career/entry-career/?post_id=1169)**
+
+↑ 採用エントリーはこちら
+
+----
+
 # NCDCのエンジニア採用に応募しませんか
 
 NCDCでは年間を通してエンジニアチームの採用を行っています。
-
----
-
-[今すぐ採用エントリー
-](https://ncdc.recruit-site.biz/recruit/career/entry-career/?post_id=1169)
-
----
 
 - [NCDCのエンジニア採用に応募しませんか](#ncdcのエンジニア採用に応募しませんか)
   - [NCDCの紹介](#ncdcの紹介)
