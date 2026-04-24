@@ -1,9 +1,12 @@
-NCDCに興味をもっていただいてありがとうございます。
+## NCDCに興味をもっていただいてありがとうございます
 
-Connpassでオフライン勉強会を開催予定です。
+オフライン勉強会を開催予します！
+
 勉強会の後に軽い懇親会を予定していますので、ぜひお話ししましょう！
-https://ncdc-dev.connpass.com/event/391347
+
+[オフラインイベントに申し込む](https://ncdc-dev.connpass.com/event/391347) (準備中)
 
 
 NCDCの採用にご興味を持っていただけた方は下記からご連絡ください。
-https://ncdc.co.jp/recruit/entry/
+
+[採用エントリー](https://ncdc.co.jp/recruit/entry/)
