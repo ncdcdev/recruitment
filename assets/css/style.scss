@@ -11,6 +11,9 @@ $ncdc-ink: #49566d; // 本文・見出しの文字色
 $ncdc-slate: #496e98; // 補助的な面
 $ncdc-mist: #aeb8ca; // 淡いグレー
 $ncdc-wash: #eef3fa; // 見出しの背景に敷く淡い水色
+// #66d1cf は白文字とのコントラストが 1.81:1 しかなく WCAG AA を満たさないため、
+// 白文字を載せるボタンには同系色を暗くしたこちらを使う（4.68:1）
+$ncdc-teal-deep: #12808b;
 
 // cayman の色は !default 付きで宣言されているため、
 // テーマの読み込みより前に上書きしないと反映されない
@@ -45,12 +48,13 @@ samp {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
-// 上部の帯。コーポレートサイトのネイビーから水色へのグラデーションに合わせる
+// 上部の帯。コーポレートサイトのネイビーから水色へのグラデーションに合わせる。
+// 水色への切り替わりを後ろへ寄せ、白文字が乗る範囲を濃い青に保っている
 .page-header {
   background-image: linear-gradient(
     120deg,
     $ncdc-navy 0%,
-    $ncdc-blue 62%,
+    $ncdc-blue 78%,
     $ncdc-teal 100%
   );
 }
@@ -132,11 +136,6 @@ samp {
   pre {
     border-radius: 10px;
   }
-
-  table th,
-  table td {
-    border-color: $table-border-color;
-  }
 }
 
 // 冒頭の「今すぐ採用エントリー」の見出しリンクをボタンとして見せる。
@@ -146,7 +145,7 @@ samp {
   padding: 0.9rem 2.4rem;
   font-size: 1.15rem;
   color: #fff;
-  background-image: linear-gradient(90deg, $ncdc-teal 0%, $ncdc-blue 100%);
+  background-image: linear-gradient(90deg, $ncdc-teal-deep 0%, $ncdc-navy 100%);
   border: none;
   border-radius: 999px;
   box-shadow: 0 4px 14px rgba($ncdc-navy, 0.25);
