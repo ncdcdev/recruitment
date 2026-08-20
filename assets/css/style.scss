@@ -114,9 +114,10 @@ samp {
 
   a {
     text-decoration: none;
-    border-bottom: 1px solid rgba($ncdc-navy, 0.3);
+    border-bottom: 1px solid transparent;
 
-    &:hover {
+    &:hover,
+    &:focus-visible {
       color: $ncdc-blue;
       border-bottom-color: $ncdc-blue;
     }
