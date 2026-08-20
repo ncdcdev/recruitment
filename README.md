@@ -1,4 +1,4 @@
-# **[今すぐ採用エントリー](https://ncdc.co.jp/recruit/entry/)**
+**[今すぐ採用エントリー](https://ncdc.co.jp/recruit/entry/)**
 
 ↑ 採用エントリーはこちら
 

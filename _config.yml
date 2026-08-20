@@ -2,3 +2,9 @@ title: NCDC recruitment
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+# GitHub Pages 既定の jekyll-titles-from-headings は各ページの最初の見出しを
+# ページタイトルに採用する。cayman はそれを上部の帯に表示するため、
+# 本文にも同じ見出しが残ると二重に出る。strip_title で本文側から取り除く
+titles_from_headings:
+  strip_title: true
