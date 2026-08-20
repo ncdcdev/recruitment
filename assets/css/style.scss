@@ -139,9 +139,11 @@ samp {
   }
 }
 
-// 冒頭の「今すぐ採用エントリー」の見出しリンクをボタンとして見せる。
-// Markdown は変更していない。他ページの先頭見出しにはリンクが無いので影響しない
-.main-content > h1:first-of-type a {
+// 冒頭の「今すぐ採用エントリー」のリンクをボタンとして見せる。
+// GitHub Pages の jekyll-titles-from-headings が最初の見出しをページタイトルに
+// 採用するため、このリンクは見出しにできない（見出しにするとタイトルが
+// 「今すぐ採用エントリー」になる）。先頭の段落として置き、ここで装飾する
+.main-content > p:first-of-type a {
   display: inline-block;
   padding: 0.9rem 2.4rem;
   font-size: 1.15rem;
@@ -151,7 +153,8 @@ samp {
   border-radius: 999px;
   box-shadow: 0 4px 14px rgba($ncdc-navy, 0.25);
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: #fff;
     opacity: 0.9;
   }
