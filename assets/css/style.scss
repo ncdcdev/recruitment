@@ -1,29 +1,158 @@
 ---
 ---
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+
+// NCDC コーポレートサイト（ncdc.co.jp）から採取した配色
+$ncdc-navy: #0b4a93; // 主要ボタンの背景
+$ncdc-blue: #3f6ccf; // グラデーションの青側
+$ncdc-teal: #66d1cf; // グラデーションの水色側
+$ncdc-ink: #49566d; // 本文・見出しの文字色
+$ncdc-slate: #496e98; // 補助的な面
+$ncdc-mist: #aeb8ca; // 淡いグレー
+$ncdc-wash: #eef3fa; // 見出しの背景に敷く淡い水色
+// #66d1cf は白文字とのコントラストが 1.81:1 しかなく WCAG AA を満たさないため、
+// 白文字を載せるボタンには同系色を暗くしたこちらを使う（4.68:1）
+$ncdc-teal-deep: #12808b;
+
+// cayman の色は !default 付きで宣言されているため、
+// テーマの読み込みより前に上書きしないと反映されない
+$header-bg-color: $ncdc-blue;
+$header-bg-color-secondary: $ncdc-navy;
+$header-heading-color: #fff;
+$section-headings-color: $ncdc-navy;
+$body-text-color: $ncdc-ink;
+$body-link-color: $ncdc-navy;
+$blockquote-text-color: $ncdc-slate;
+$border-color: #dce3ee;
+$table-border-color: #e3e8f0;
+$hr-border-color: #e6eaf2;
+
 @import "{{ site.theme }}";
 
-* {
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+$font-ja: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo,
+  sans-serif;
+
+body {
+  font-family: $font-ja;
+  font-size: 17px;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
 }
 
-#main-content {
-  h1 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+// 等幅フォントはテーマの指定のまま残す
+code,
+pre,
+kbd,
+samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+// 上部の帯。コーポレートサイトのネイビーから水色へのグラデーションに合わせる。
+// 水色への切り替わりを後ろへ寄せ、白文字が乗る範囲を濃い青に保っている
+.page-header {
+  background-image: linear-gradient(
+    120deg,
+    $ncdc-navy 0%,
+    $ncdc-blue 78%,
+    $ncdc-teal 100%
+  );
+}
+
+.project-name {
+  font-family: $font-ja;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.project-tagline {
+  font-family: $font-ja;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+.main-content {
+  // テーマ既定の 64rem では画面に対して本文が細く見えるため広げる
+  @include large {
+    max-width: 78rem;
   }
-  h2 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  }
-  h3 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  }
-  h4 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  }
-  h5 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
   h6 {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-family: $font-ja;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  // 直線で区切らず、淡い水色の角丸の面で見出しを示す
+  h2 {
+    padding: 0.7rem 1.2rem;
+    background-color: $ncdc-wash;
+    border-radius: 10px;
+  }
+
+  // 縦線は角を丸めた棒にする
+  h3 {
+    position: relative;
+    padding-left: 1rem;
+
+    &::before {
+      position: absolute;
+      top: 0.2em;
+      bottom: 0.2em;
+      left: 0;
+      width: 5px;
+      content: "";
+      background-color: $ncdc-teal;
+      border-radius: 999px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover,
+    &:focus-visible {
+      color: $ncdc-blue;
+      border-bottom-color: $ncdc-blue;
+    }
+  }
+
+  img {
+    border-radius: 12px;
+  }
+
+  blockquote {
+    padding: 0.6rem 1.2rem;
+    background-color: $ncdc-wash;
+    border-color: $ncdc-mist;
+    border-radius: 10px;
+  }
+
+  pre {
+    border-radius: 10px;
+  }
+}
+
+// 冒頭の「今すぐ採用エントリー」の見出しリンクをボタンとして見せる。
+// Markdown は変更していない。他ページの先頭見出しにはリンクが無いので影響しない
+.main-content > h1:first-of-type a {
+  display: inline-block;
+  padding: 0.9rem 2.4rem;
+  font-size: 1.15rem;
+  color: #fff;
+  background-image: linear-gradient(90deg, $ncdc-teal-deep 0%, $ncdc-navy 100%);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba($ncdc-navy, 0.25);
+
+  &:hover {
+    color: #fff;
+    opacity: 0.9;
   }
 }
